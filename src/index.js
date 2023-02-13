@@ -1,8 +1,9 @@
 import home from './home';
 import menu from './menu';
 import contact from './contact';
-import './style.css'
+
 const content = document.getElementById('content');
+
 
 const heading = document.createElement('div');
 heading.setAttribute('id', 'heading');
