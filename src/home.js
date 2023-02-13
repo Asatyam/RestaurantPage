@@ -17,7 +17,7 @@ export default function home()
   const homeImage = document.createElement('div');
   homeImage.setAttribute('id', 'homeImage');
   const pizza = document.createElement('img');
-  pizza.setAttribute('src', '../src/pizza.jpeg');
+  pizza.setAttribute('src', '../dist/pizza.jpeg');
   homeImage.appendChild(pizza);
   home.appendChild(homeImage);
 
